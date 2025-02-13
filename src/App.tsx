@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { lazy } from "react";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+const HomePage = lazy(() => import("./pages/Home/Home"));
+const AboutUs = lazy(() => import("./pages/AboutUs/AboutUs"));
+const AiAgents = lazy(() => import("./pages/AiAgents/AiAgents"));
+const ContactUs = lazy(() => import("./pages/ContactUs/ContactUs"));
+const Terms = lazy(
+  () => import("./pages/TermsAndConditions/TermsAndConditions")
+);
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="about-us" element={<AboutUs />} />
+        <Route path="ai-agents" element={<AiAgents />} />
+        <Route path="contact-us" element={<ContactUs />} />
+        <Route path="terms" element={<Terms />} />
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;

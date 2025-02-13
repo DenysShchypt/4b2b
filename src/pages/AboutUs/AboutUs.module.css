@@ -1,0 +1,144 @@
+/* Загальний контейнер */
+.aboutUsContainer {
+  padding: 40px 20px; /* Збільшуємо падінг */
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Заголовок */
+.header {
+  text-align: center;
+  margin-bottom: 60px; /* Збільшуємо відступ після заголовка */
+}
+.header h1 {
+  font-size: 3rem; /* Збільшуємо розмір заголовка */
+  color: #000;
+  margin-bottom: 10px;
+}
+.header p {
+  font-size: 1.6rem; /* Збільшуємо розмір опису */
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Секції */
+.section {
+  margin-bottom: 60px; /* Збільшуємо відступ між секціями */
+}
+.section h2 {
+  font-size: 2.2rem; /* Збільшуємо розмір заголовків секцій */
+  color: #000;
+  margin-bottom: 20px;
+}
+.section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Секція послуг */
+.servicesSection {
+  margin-bottom: 80px; /* Збільшуємо відступ після секції послуг */
+}
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Гнучка сітка */
+  gap: 30px; /* Збільшуємо простір між картками */
+}
+
+/* Картка послуг */
+.serviceItem {
+  background-color: #f9f9f9;
+  border-radius: 12px; /* Заокруглюємо кути */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Додаємо тінь */
+  overflow: hidden; /* Приховуємо переповнення */
+  transition: transform 0.2s ease; /* Додаємо анімацію масштабування */
+}
+.serviceItem:hover {
+  transform: scale(1.02); /* Легке масштабування при наведенні */
+}
+
+/* Зображення послуг */
+.serviceImage {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 12px; /* Заокруглюємо верхні кути */
+  border-top-right-radius: 12px;
+  object-fit: cover; /* Зabezпечуємо покриття зображенням */
+}
+
+/* Текстова частина картки */
+.serviceContent {
+  padding: 20px; /* Збільшуємо внутрішні відступи */
+  text-align: center; /* Центруємо текст */
+}
+.serviceContent h3 {
+  font-size: 1.6rem; /* Збільшуємо розмір заголовка */
+  color: #000;
+  margin-bottom: 10px;
+}
+.serviceContent p {
+  font-size: 1rem; /* Зменшуємо розмір опису */
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Список причин */
+.reasonsList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px; /* Простір між пунктами */
+}
+
+.reasonItem {
+  position: relative;
+  font-size: 1.1rem;
+  color: #333;
+  padding-left: 30px;
+}
+.reasonItem::before {
+  content: "•";
+  color: #4b0c77;
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .aboutUsContainer {
+    padding: 20px; /* Зменшуємо падінг */
+  }
+  .header h1 {
+    font-size: 2.5rem; /* Зменшуємо розмір заголовка */
+  }
+  .header p {
+    font-size: 1.4rem; /* Зменшуємо розмір опису */
+  }
+  .section h2 {
+    font-size: 1.8rem; /* Зменшуємо розмір заголовків секцій */
+  }
+  .serviceContent h3 {
+    font-size: 1.4rem; /* Зменшуємо розмір заголовків карток */
+  }
+  .serviceContent p {
+    font-size: 0.9rem; /* Зменшуємо розмір опису карток */
+  }
+  .reasonItem {
+    font-size: 1rem; /* Зменшуємо розмір тексту причин */
+    padding-left: 20px; /* Зменшуємо відступ для маркера */
+  }
+  .reasonItem::before {
+    font-size: 1.5rem; /* Зменшуємо розмір маркера */
+  }
+}

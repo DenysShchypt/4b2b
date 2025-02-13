@@ -1,0 +1,87 @@
+/* Загальний стиль секції */
+.missionSection {
+  background-color: #f9f9f9; /* Світлий фон */
+  padding: 80px 20px; /* Відступи */
+}
+
+/* Контейнер для зображення та тексту */
+.contentContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px; /* Простір між зображенням та текстом */
+}
+
+/* Контейнер для зображення */
+.imageContainer {
+  flex: 1; /* Розмір для зображення */
+}
+
+.missionImage {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px; /* Заокруглення кутів */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Додаткова тінь */
+}
+
+/* Контейнер для тексту */
+.textContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+/* Заголовок секції */
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Текст секції */
+.sectionText {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  flex: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .missionSection {
+    padding: 40px 20px; /* Зменшення відступів */
+  }
+
+  .textAndImageContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+  }
+
+  .sectionText {
+    font-size: 1rem; /* Зменшення розміру тексту */
+    padding: 15px; /* Зменшення внутрішніх відступів */
+    text-align: center; /* Центрування тексту */
+  }
+
+  .imageContainer {
+    order: -1; /* Зображення перше на мобільних пристроях */
+  }
+}

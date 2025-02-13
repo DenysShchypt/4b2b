@@ -1,0 +1,195 @@
+/* Загальний стиль секції */
+.contactSection {
+  background: linear-gradient(90deg, #4b0c77, #8a2be2, #9b59b6);
+  background-size: 300% 100%;
+  animation: gradientAnimation 8s ease infinite;
+  padding: 80px 20px;
+  border-radius: 8px;
+  color: #ffffff; /* Білий текст */
+}
+
+/* Анімація градієнту */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Контейнер */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Заголовок секції */
+.sectionTitle {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Опис секції */
+.sectionDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+/* Форма */
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Група поля */
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Метка */
+.label {
+  text-align: left;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+/* Інпут */
+.input,
+.textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333333;
+  font-family: inherit;
+}
+
+/* Текстаре */
+/* Скидання дефолтних стилів */
+.textarea {
+  all: unset; /* Скидає всі дефолтні стилі браузера */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333333;
+  font-family: inherit; /* Використовує той самий шрифт, що й у всьому додатку */
+  line-height: 1.5; /* Додає трохи повітря між рядками */
+  text-align: left;
+  resize: none; /* Заборона зміни розміру */
+}
+
+/* Якщо потрібно додати обводку при фокусі */
+.input:focus,
+.textarea:focus {
+  outline: 2px solid #8a4fff;
+}
+
+/* Чекбокс */
+.customCheckbox {
+  appearance: none; /* Приховаємо стандартний чекбокс */
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ffffff; /* Колір рамки */
+  border-radius: 4px; /* Заокруглюємо кути */
+  position: relative;
+  cursor: pointer; /* Зміна курсору */
+  transition: border-color 0.3s ease;
+}
+
+.customCheckbox:checked {
+  border-color: #007bff; /* Темний колір рамки при виборі */
+}
+
+.customCheckbox:checked::before {
+  content: ""; /* Додаємо галочку */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #007bff; /* Колір галочки */
+  border-radius: 2px; /* Маленька заокруглення для галочки */
+}
+
+/* Обгортка для чекбоксу та тексту */
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Простір між чекбоксом та текстом */
+}
+
+/* Текст чекбокса */
+.checkboxText {
+  font-size: 0.9rem;
+  color: #ffffff;
+  pointer-events: none; /* Забороняємо взаємодію з текстом */
+}
+
+/* Посилання без підкреслення */
+.noUnderlineLink {
+  color: #007bff; /* Колір посилання */
+  text-decoration: none; /* Прибираємо підкреслення */
+  pointer-events: auto; /* Дозволяємо взаємодію з посиланням */
+}
+
+.noUnderlineLink:hover {
+  color: #0056b3; /* Темніший колір при наведенні */
+}
+/* Кнопка відправлення */
+.submitButton {
+  background-color: #ffffff;
+  color: #4b0c77;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submitButton:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.01);
+}
+
+/* Повідомлення про успішне відправлення */
+.successMessage {
+  font-size: 1rem;
+  color: #00ff00;
+  margin-top: 20px;
+}
+
+/* Повідомлення про помилку */
+.errorMessage {
+  font-size: 1rem;
+  color: #ff0000;
+  margin-top: 20px;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .sectionDescription {
+    font-size: 1rem;
+  }
+}

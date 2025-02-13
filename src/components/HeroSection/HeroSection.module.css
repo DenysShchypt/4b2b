@@ -1,0 +1,107 @@
+/* Головна секція */
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 80px 20px;
+  border-radius: 8px;
+}
+
+/* Зображення */
+.imageContainer {
+  flex: 1; /* Розмір для зображення */
+  margin-right: 40px; /* Відступ від текстового контенту */
+}
+.heroImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Контент */
+.contentContainer {
+  flex: 1; /* Розмір для контенту */
+  max-width: 500px;
+  display: flex; /* Використовуємо flexbox */
+  flex-direction: column; /* Елементи розміщуються по вертикалі */
+  justify-content: space-between; /* Розміщуємо елементи зверху, посередині та знизу */
+}
+
+/* Заголовок секції (зверху) */
+.sectionTitle {
+  font-size: 3rem; /* Розмір шрифту */
+  color: #333;
+}
+
+/* Підзаголовок секції (посередині) */
+.sectionSubtitle {
+  font-size: 1.2rem;
+  color: #000;
+  line-height: 1.6;
+  margin-bottom: 60px; /* Віддаляємо від кнопки */
+  text-align: left; /* Вирівнюємо ліворуч */
+}
+
+/* Кнопка (знизу) */
+.contactButton {
+  background: linear-gradient(90deg, #4b0c77, #8a2be2, #9b59b6);
+  background-size: 300% 100%;
+  animation: gradientAnimation 4s ease infinite;
+  border: none;
+  color: white;
+  font-size: 1.2rem; /* Розмір шрифту */
+  padding: 15px 0; /* Внутрішні відступи */
+  border-radius: 6px; /* Заокруглення кутів */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; /* Видаляємо підкреслення для посилання */
+  transition: transform 0.2s ease;
+  width: calc(2 / 3 * 100%); /* Ширина 2/3 від ширини контейнера */
+  margin-left: auto; /* Вирівнюємо кнопку в право */
+  margin-right: auto;
+}
+
+.contactButton:hover {
+  transform: scale(1.05); /* Додаємо ефект масштабування при наведенні */
+}
+
+/* Анімація градієнту */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .heroSection {
+    flex-direction: column; /* Розміщуємо зображення та контент один під одним */
+    text-align: center; /* Центруємо текст */
+  }
+
+  .imageContainer {
+    margin-bottom: 20px; /* Додаємо відступ після зображення */
+    margin-right: 0; /* Прибираємо правий відступ */
+  }
+
+  .sectionTitle {
+    text-align: center; /* Центруємо заголовок на мобільних пристроях */
+    margin-bottom: 20px; /* Додаємо відступ після заголовка */
+  }
+
+  .sectionSubtitle {
+    text-align: center; /* Центруємо текст на мобільних пристроях */
+    margin-bottom: 30px; /* Додаємо відступ до кнопки */
+  }
+
+  .contactButton {
+    width: 100%; /* На мобільних пристроях кнопка займає всю ширину */
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "home": "Home",
+  "about_us": "About Us",
+  "ai_agents": "AI Agents",
+  "contact_us": "Contact Us",
+  "our_works": "Our Works",
+  "email_placeholder": "Enter email",
+  "submit_button": "Submit",
+  "hero_title": "Transform Your Business with AI Agents",
+  "hero_subtitle": "Discover how our cutting-edge AI agents can revolutionize your business operations. Experience enhanced efficiency and customer engagement with our innovative solutions.",
+  "email_label": "Email",
+  "enter_email": "Enter your email",
+  "sign_up_button": "Sign up",
+  "invalid_email": "Please enter a valid email address.",
+  "success_message": "Your message has been sent successfully!",
+  "error_message": "An error occurred while sending the message.",
+  "by_signing_up": "By signing up, you agree to our",
+  "terms_link": "Terms and Conditions",
+  "and": "and",
+  "privacy_link": "Privacy Policy",
+  "contact_info": "Contact Information",
+  "address": "Address: 03150 Great Vasilkovska St., Office 14, Kyiv, Ukraine",
+  "phone": "Phone: +380 44 123 4567",
+  "email": "Email: hello@eon.plus",
+  "form_email": "Your Email",
+  "form_email_placeholder": "Enter your email",
+  "server_unavailable": "The server is unavailable. Please try again later.",
+  "form_submit": "Submit",
+  "mission_title": "Our Mission and Values",
+  "mission_text_1": "At 4b2b.ai, our mission is to empower businesses by providing cutting-edge AI agents that enhance operational efficiency and improve customer interactions.",
+  "mission_text_2": "We are committed to innovation, ensuring we stay at the forefront of AI technology. Our values of integrity and collaboration guide our practices, fostering transparent relationships with our clients.",
+  "mission_text_3": "Founded in 2023, our team of experts in AI technology, software development, and business strategy is dedicated to creating solutions that drive growth. We believe in making AI accessible and beneficial for companies of all sizes, helping them navigate the digital frontier with confidence.",
+  "mission_image_alt": "Our Mission and Values",
+  "ai_agents_title": "Explore Our Advanced AI Agents for Business",
+  "ai_agents_description": "Discover how our AI agents can revolutionize your business operations. With cutting-edge technology, they offer unparalleled efficiency and adaptability, ensuring your business stays ahead in the competitive market.",
+  "ai_agent_in_action_title": "AI Business Agents in Action",
+  "ai_agent_in_action_text": "Our AI Business Agents are designed to streamline operations and enhance customer engagement. They adapt to your business needs, providing tailored solutions that drive results.",
+  "ai_agent_in_action_alt": "AI Agent in Action",
+  "data_driven_insights_title": "Data-Driven Insights",
+  "data_driven_insights_text": "Leverage our AI agents to gain valuable insights from your data. They analyze patterns and trends, helping you make informed decisions that propel your business forward.",
+  "data_driven_insights_alt": "Data-Driven Insights",
+  "enhanced_customer_support_title": "Enhanced Customer Support",
+  "enhanced_customer_support_text": "Our AI agents offer personalized customer support, reducing response times and improving satisfaction. They ensure your clients receive timely and accurate assistance.",
+  "enhanced_customer_support_alt": "Enhanced Customer Support",
+  "learn_more_button": "Learn More",
+  "get_in_touch": "Get in Touch",
+  "contact_description": "Reach out to us for any inquiries or support.",
+  "form_name_label": "Name",
+  "form_name_placeholder": "Enter your name",
+  "form_email_label": "Email",
+  "form_message_label": "Message",
+  "form_message_placeholder": "Type your message",
+  "i_accept": "I accept the",
+  "form_submit_button": "Submit",
+  "invalid_name": "Please enter a valid name.",
+  "invalid_message": "Please enter a message.",
+  "terms_not_accepted": "You must accept the Terms and Conditions.",
+  "copyright": "© 2025 4b2b.ai All rights reserved.",
+  "contact_button": "Get in Touch",
+  "aboutUs": {
+    "title": "About Us",
+    "description": "A company that transforms businesses with AI technologies",
+    "whatWeDo": "What We Do?",
+    "whatWeDoDescription": "We are an innovative company specializing in the development and integration of AI technologies for business. Our solutions help automate processes, improve customer service, and increase the efficiency of your business.",
+    "ourServices": "Our Services",
+    "aiBots": "AI Bots for Websites",
+    "aiBotsDescription": "Development of chatbots for automating customer communication.",
+    "meetingRecording": "Meeting Recording",
+    "meetingRecordingDescription": "Automatic recording and analysis of meetings for further use.",
+    "botIntegration": "Bot Integration",
+    "botIntegrationDescription": "Integration of AI bots with your systems for process automation.",
+    "dataAnalytics": "Data Analytics",
+    "dataAnalyticsDescription": "Using AI to analyze large volumes of data and gain valuable insights.",
+    "whyUs": "Why Us?",
+    "automation": "Process Automation",
+    "automationDescription": "Automate repetitive tasks and streamline workflows with our AI tools.",
+    "automationAlt": "Process Automation",
+    "predictive": "Predictive Technology",
+    "predictiveDescription": "Use AI to predict future trends and make data-driven decisions.",
+    "predictiveAlt": "Predictive Technology",
+    "reasons": [
+      "Over 5 years of experience in AI system development",
+      "A team of professionals from various IT fields",
+      "Personalized approach to each client",
+      "Quality and results guarantee"
+    ]
+  },
+  "aiAgents": {
+    "heroTitle": "AI Agents — The Future of Business and Learning",
+    "heroDescription": "Use AI technologies to automate processes, improve customer service, and innovate learning.",
+    "businessTitle": "How AI Technologies Help in Modern Business",
+    "businessItems": [
+      {
+        "title": "Process Automation",
+        "description": "AI agents can automate everyday tasks such as data processing, document analysis, and task management."
+      },
+      {
+        "title": "Customer Service Improvement",
+        "description": "Chatbots and voice assistants provide 24/7 customer support, quickly responding to inquiries."
+      },
+      {
+        "title": "Personalized User Experience",
+        "description": "AI analyzes user behavior and offers personalized recommendations and content."
+      }
+    ],
+    "educationTitle": "How AI Technologies Are Changing Education",
+    "educationItems": [
+      {
+        "title": "Adaptive Learning",
+        "description": "AI systems adapt to each student's learning pace, providing personalized materials."
+      },
+      {
+        "title": "Automatic Grading",
+        "description": "AI can automatically grade tests, essays, and other assignments, saving teachers' time."
+      },
+      {
+        "title": "Skill Development",
+        "description": "Interactive AI trainers help students develop practical skills in real-world scenarios."
+      }
+    ],
+    "applicationsTitle": "How We Use AI in Practice",
+    "applicationsItems": [
+      {
+        "title": "Chatbot for Online Store",
+        "description": "We created a chatbot that helps customers find products, place orders, and get support."
+      },
+      {
+        "title": "Sales Forecasting System",
+        "description": "We developed an AI system that analyzes sales data and predicts future trends for businesses."
+      },
+      {
+        "title": "Learning Platform with AI Trainer",
+        "description": "We built a platform where students receive personalized courses and interactive tasks from an AI trainer."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "introduction": {
+      "title": "1. Introduction",
+      "description": "By submitting this form, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not submit your information."
+    },
+    "dataCollection": {
+      "title": "2. Data Collection and Usage",
+      "description": "We collect personal data provided in this form, including but not limited to name, email, and message content.",
+      "point1": "Your data will only be used for the intended purpose specified in the form.",
+      "point2": "We do not sell, trade, or rent your personal data to third parties.",
+      "point3": "We may use your data to improve our services and communicate with you."
+    },
+    "dataSecurity": {
+      "title": "3. Data Security",
+      "description": "We take appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction.",
+      "point1": "However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security.",
+      "point2": "We regularly update our security protocols to ensure the highest level of protection."
+    },
+    "userResponsibilities": {
+      "title": "4. User Responsibilities",
+      "description": "You confirm that the information provided is accurate and truthful.",
+      "point1": "You agree not to submit any malicious, harmful, or inappropriate content.",
+      "point2": "You are responsible for the accuracy of the information you provide."
+    },
+    "thirdPartyServices": {
+      "title": "5. Third-Party Services",
+      "description": "Our website may use third-party services (e.g., email providers, analytics tools) to process your data. These third-party services are responsible for their own data protection practices."
+    },
+    "cookies": {
+      "title": "6. Cookies and Tracking",
+      "description": "Our website may use cookies to enhance user experience. You can disable cookies in your browser settings if you do not wish to be tracked."
+    },
+    "rightToModify": {
+      "title": "7. Right to Modify",
+      "description": "We reserve the right to update these Terms and Conditions at any time. Any changes will be posted on this page, and your continued use of the service will constitute acceptance of the new terms."
+    },
+    "contactInformation": {
+      "title": "8. Contact Information",
+      "description": "If you have any questions regarding these Terms and Conditions, please contact us at {{email}}."
+    },
+    "agreement": "By checking the box, you acknowledge that you have read, understood, and agreed to these Terms and Conditions."
+  }
+}

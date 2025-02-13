@@ -1,0 +1,216 @@
+/* Загальний стиль сторінки */
+.contactUs {
+  background-color: #f9f9f9; /* Світлий фон */
+  padding: 80px 20px; /* Відступи */
+  text-align: center; /* Центрування тексту */
+}
+
+/* Заголовок сторінки */
+.contactUs h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Контейнер контактної інформації */
+.contactInfo {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  text-align: left; /* Вирівнювання тексту ліворуч */
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactInfo h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.contactInfo p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Форма */
+.contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Група поля */
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Метка */
+.label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Інпут */
+.input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-family: inherit;
+}
+
+.textarea {
+  all: unset; /* Скидає всі дефолтні стилі браузера */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-family: inherit; /* Використовує той самий шрифт, що й у всьому додатку */
+  line-height: 1.5; /* Додає трохи повітря між рядками */
+  text-align: left;
+  resize: none; /* Заборона зміни розміру */
+}
+
+/* Якщо потрібно додати обводку при фокусі */
+.input:focus,
+.textarea:focus {
+  outline: 2px solid #8a4fff;
+}
+
+/* Чекбокс для умов */
+/* Чекбокс для умов */
+/* Чекбокс */
+.customCheckbox {
+  appearance: none; /* Приховаємо стандартний чекбокс */
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc; /* Додаємо рамку */
+  border-radius: 4px; /* Заокруглюємо кути */
+  position: relative;
+  margin-right: 10px; /* Простір між чекбоксом та текстом */
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.customCheckbox:checked {
+  border-color: #4b0c77; /* Колір рамки при виборі */
+}
+
+.customCheckbox:checked::before {
+  content: ""; /* Додаємо галочку */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #4b0c77; /* Колір галочки */
+  border-radius: 2px; /* Маленька заокруглення для галочки */
+}
+
+/* Текст чекбокса */
+.checkboxLabel {
+  font-size: 0.9rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkboxText {
+  display: flex;
+  align-items: center;
+}
+
+/* Посилання без підкреслення */
+.noUnderlineLink {
+  color: #007bff; /* Колір посилання */
+  text-decoration: none; /* Прибираємо підкреслення */
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.noUnderlineLink:hover {
+  color: #0056b3; /* Темніший колір при наведенні */
+}
+
+/* Кнопка відправлення */
+.submitButton {
+  background: linear-gradient(90deg, #4b0c77, #8a2be2, #9b59b6);
+  background-size: 300% 100%;
+  animation: gradientAnimation 4s ease infinite;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.submitButton:hover {
+  transform: scale(1.005);
+}
+
+/* Анімація градієнту */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Повідомлення про успішне відправлення */
+.successMessage {
+  font-size: 1rem;
+  color: green;
+  margin-top: 10px;
+}
+
+/* Повідомлення про помилку */
+.errorMessage {
+  font-size: 1rem;
+  color: red;
+  margin-top: 10px;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .contactUs h1 {
+    font-size: 2rem;
+  }
+
+  .contactInfo {
+    padding: 15px;
+  }
+
+  .submitButton {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+  .customCheckbox {
+    width: 18px;
+    height: 18px;
+  }
+
+  .checkboxLabel {
+    font-size: 0.8rem;
+  }
+}

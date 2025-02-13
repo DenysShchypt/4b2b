@@ -1,0 +1,187 @@
+/* Загальний стиль секції */
+.aiAgentsSection {
+  background-color: #ffffff; /* Білий фон */
+  padding: 80px 20px; /* Відступи */
+  text-align: center; /* Центрування тексту */
+}
+
+/* Контейнер для заголовку і опису */
+.headerContainer {
+  max-width: 800px;
+  margin: 0 auto 40px auto; /* Відступ після опису */
+}
+
+/* Заголовок секції */
+.sectionTitle {
+  font-size: 2.5rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Опис секції */
+.sectionDescription {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* Контейнер для опису функціональності */
+.featuresContainer {
+  display: flex; /* Розміщуємо всі блоки в один ряд */
+  justify-content: space-between; /* Додаємо простір між блоками */
+  gap: 20px; /* Простір між блоками */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Блок з описом функціональності */
+.featureItem {
+  flex: 1; /* Рівномірне розташування блоків */
+  max-width: calc(33.33% - 20px);
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  display: flex; /* Робимо флекс-контейнер */
+  flex-direction: column; /* Розташовуємо елементи вертикально */
+  padding-bottom: 20px; /* Додаємо трохи відступу знизу */
+}
+
+/* Зображення у блоках */
+.featureImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.descriptionContainer {
+  padding: 20px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Розтягуємо контейнер для тексту */
+}
+
+/* Заголовок блоку */
+.featureTitle {
+  font-size: 1.6rem;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+/* Текст блоку */
+.featureText {
+  flex-grow: 1;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #000;
+}
+
+/* Кнопка "Learn More" */
+.learnMoreButton {
+  background: linear-gradient(90deg, #4b0c77, #8a2be2, #9b59b6);
+  background-size: 300% 100%;
+  animation: gradientAnimation 4s ease infinite; /* Синій колір */
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: auto;
+  transition: transform 0.2s ease;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.learnMoreButton:hover {
+  transform: scale(1.02); /* Темніший відтінок синього */
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .aiAgentsSection {
+    padding: 50px 15px; /* Зменшені відступи */
+  }
+
+  .headerContainer {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .sectionTitle {
+    font-size: 1.8rem; /* Менший заголовок */
+    margin-bottom: 15px;
+  }
+
+  .sectionDescription {
+    font-size: 1rem; /* Зменшений текст */
+    line-height: 1.4;
+  }
+
+  .featuresContainer {
+    flex-direction: column; /* Вертикальне розташування */
+    align-items: center;
+    gap: 15px;
+  }
+
+  .featureItem {
+    max-width: 90%; /* Менша ширина, щоб не було занадто широким */
+    padding: 15px; /* Зменшені внутрішні відступи */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Менша тінь */
+  }
+
+  .featureImage {
+    max-height: 200px; /* Фіксована висота для коректного відображення */
+    object-fit: cover; /* Обрізка картинки */
+  }
+
+  .featureTitle {
+    font-size: 1.4rem; /* Менший заголовок */
+    margin-bottom: 10px;
+  }
+
+  .featureText {
+    font-size: 1rem; /* Менший розмір шрифту */
+    line-height: 1.5;
+  }
+
+  .learnMoreButton {
+    font-size: 0.9rem; /* Зменшений розмір кнопки */
+    padding: 8px 15px;
+  }
+}
+
+/* Додаткові стилі для дуже маленьких екранів (менше 480px) */
+@media (max-width: 480px) {
+  .aiAgentsSection {
+    padding: 40px 10px;
+  }
+
+  .featureItem {
+    max-width: 100%;
+  }
+
+  .featureTitle {
+    font-size: 1.3rem;
+  }
+
+  .featureText {
+    font-size: 0.95rem;
+  }
+
+  .learnMoreButton {
+    width: 100%; /* Розтягуємо кнопку на всю ширину */
+  }
+}

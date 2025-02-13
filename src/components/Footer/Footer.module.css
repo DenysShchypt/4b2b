@@ -1,0 +1,97 @@
+/* Загальний стиль футера */
+.footer {
+  background-color: #513657;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Контейнер контенту */
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Ліва частина - Навігація */
+.nav {
+  flex: 1; /* Розміщуємо навігацію зліва */
+  text-align: left;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #c7b4d1; /* Блакитно-пурпурний колір при наведенні */
+}
+
+/* Центральна частина - Логотип */
+.logoContainer {
+  flex: 1; /* Розміщуємо логотип посередині */
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #c7b4d1;
+  margin-top: 0;
+}
+
+/* Права частина - Іконки соцмереж */
+.socialIcons {
+  flex: 1; /* Розміщуємо іконки праворуч */
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.socialIcon {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.socialIcon:hover {
+  color: #c7b4d1; /* Блакитно-пурпурний колір при наведенні */
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .socialIcons {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

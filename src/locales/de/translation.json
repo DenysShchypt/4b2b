@@ -1,0 +1,180 @@
+{
+  "home": "Startseite",
+  "about_us": "Über uns",
+  "ai_agents": "KI-Agenten",
+  "contact_us": "Kontakt",
+  "our_works": "Unsere Arbeiten",
+  "email_placeholder": "E-Mail eingeben",
+  "submit_button": "Einreichen",
+  "hero_title": "Verändere dein Unternehmen mit KI-Agenten",
+  "hero_subtitle": "Erfahre, wie unsere innovativen KI-Agenten deine Geschäftsvorgänge revolutionieren können. Erlebe erhöhte Effizienz und Kundenbindung mit unseren Lösungen.",
+  "email_label": "E-Mail",
+  "enter_email": "Gib deine E-Mail ein",
+  "sign_up_button": "Registrieren",
+  "invalid_email": "Bitte gib eine gültige E-Mail-Adresse ein.",
+  "success_message": "Deine Nachricht wurde erfolgreich gesendet!",
+  "error_message": "Beim Senden der Nachricht ist ein Fehler aufgetreten.",
+  "by_signing_up": "Indem du dich registrierst, stimmst du unseren",
+  "terms_link": "Allgemeinen Geschäftsbedingungen",
+  "and": "und",
+  "privacy_link": "Datenschutzrichtlinien",
+  "contact_info": "Kontaktinformationen",
+  "address": "Adresse: 03150 Große Vasilkovska Straße, Büro 14, Kiew, Ukraine",
+  "phone": "Telefon: +380 44 123 4567",
+  "email": "E-Mail: hello@eon.plus",
+  "form_email": "Ihre E-Mail",
+  "form_email_placeholder": "Geben Sie Ihre E-Mail ein",
+  "server_unavailable": "Der Server ist nicht erreichbar. Bitte versuchen Sie es später noch einmal.",
+  "form_submit": "Senden",
+  "mission_title": "Unsere Mission und Werte",
+  "mission_text_1": "Bei 4b2b.ai ist unsere Mission, Unternehmen durch innovative KI-Agenten zu stärken, die die Effizienz steigern und Kundeninteraktionen verbessern.",
+  "mission_text_2": "Wir sind der Innovation verpflichtet und stellen sicher, dass wir an der Spitze der KI-Technologie bleiben. Unsere Werte von Integrität und Zusammenarbeit leiten unser Handeln und fördern transparente Beziehungen zu unseren Kunden.",
+  "mission_text_3": "Gegründet im Jahr 2023 ist unser Team aus Experten für KI-Technologie, Softwareentwicklung und Unternehmensstrategie darauf spezialisiert, wachstumsfördernde Lösungen zu entwickeln. Wir glauben daran, KI für Unternehmen aller Größen zugänglich und vorteilhaft zu machen, um sie mit Vertrauen durch das digitale Zeitalter zu führen.",
+  "mission_image_alt": "Unsere Mission und Werte",
+  "ai_agents_title": "Entdecken Sie unsere fortschrittlichen KI-Agenten für Ihr Unternehmen",
+  "ai_agents_description": "Erfahren Sie, wie unsere KI-Agenten Ihre Geschäftsprozesse revolutionieren. Mit innovativer Technologie bieten sie uneinholbare Effizienz und Anpassungsfähigkeit, um sicherzustellen, dass Ihr Unternehmen im wettbewerbsintensiven Markt voraus ist.",
+  "ai_agent_in_action_title": "KI-Agenten im Einsatz",
+  "ai_agent_in_action_text": "Unsere KI-Agenten sind darauf ausgelegt, Prozesse zu optimieren und die Kundenbindung zu verstärken. Sie passen sich Ihren Bedürfnissen an und bieten maßgeschneiderte Lösungen, die zu Ergebnissen führen.",
+  "ai_agent_in_action_alt": "KI-Agent im Einsatz",
+  "data_driven_insights_title": "Datengetriebene Erkenntnisse",
+  "data_driven_insights_text": "Nutzen Sie unsere KI-Agenten, um wertvolle Erkenntnisse aus Ihren Daten zu gewinnen. Sie analysieren Muster und Trends und helfen Ihnen, fundierte Entscheidungen zu treffen, die Ihr Unternehmen voranbringen.",
+  "data_driven_insights_alt": "Datengetriebene Erkenntnisse",
+  "enhanced_customer_support_title": "Verbesserter Kundensupport",
+  "enhanced_customer_support_text": "Unsere KI-Agenten bieten personalisierten Kundensupport, reduzieren Antwortzeiten und verbessern die Zufriedenheit. Sie sorgen dafür, dass Ihre Kunden pünktlich und genaue Unterstützung erhalten.",
+  "enhanced_customer_support_alt": "Verbesserter Kundensupport",
+  "learn_more_button": "Mehr erfahren",
+  "get_in_touch": "Kontaktieren Sie uns",
+  "contact_description": "Wenden Sie sich an uns für jegliche Anfragen oder Unterstützung.",
+  "form_name_label": "Name",
+  "form_name_placeholder": "Geben Sie Ihren Namen ein",
+  "form_email_label": "E-Mail",
+  "form_message_label": "Nachricht",
+  "form_message_placeholder": "Tippen Sie Ihre Nachricht",
+  "i_accept": "Ich akzeptiere die",
+  "form_submit_button": "Absenden",
+  "invalid_name": "Bitte geben Sie einen gültigen Namen ein.",
+  "invalid_message": "Bitte geben Sie eine Nachricht ein.",
+  "terms_not_accepted": "Sie müssen die Allgemeinen Geschäftsbedingungen akzeptieren.",
+  "copyright": "© 2025 4b2b.ai Alle Rechte vorbehalten.",
+  "contact_button": "Kontaktiere uns",
+  "aboutUs": {
+    "title": "Über uns",
+    "description": "Ein Unternehmen, das Unternehmen mit KI-Technologien transformiert",
+    "whatWeDo": "Was machen wir?",
+    "whatWeDoDescription": "Wir sind ein innovatives Unternehmen, das sich auf die Entwicklung und Integration von KI-Technologien für Unternehmen spezialisiert hat. Unsere Lösungen helfen dabei, Prozesse zu automatisieren, den Kundenservice zu verbessern und die Effizienz Ihres Unternehmens zu steigern.",
+    "ourServices": "Unsere Dienstleistungen",
+    "aiBots": "KI-Bots für Websites",
+    "aiBotsDescription": "Entwicklung von Chatbots zur Automatisierung der Kundenkommunikation.",
+    "meetingRecording": "Besprechungsaufzeichnung",
+    "meetingRecordingDescription": "Automatische Aufzeichnung und Analyse von Besprechungen zur weiteren Verwendung.",
+    "botIntegration": "Bot-Integration",
+    "botIntegrationDescription": "Integration von KI-Bots in Ihre Systeme zur Prozessautomatisierung.",
+    "dataAnalytics": "Datenanalyse",
+    "dataAnalyticsDescription": "Verwendung von KI zur Analyse großer Datenmengen und Gewinnung wertvoller Erkenntnisse.",
+    "whyUs": "Warum wir?",
+    "automation": "Prozessautomatisierung",
+    "automationDescription": "Automatisieren Sie wiederkehrende Aufgaben und optimieren Sie Arbeitsabläufe mit unseren KI-Werkzeugen.",
+    "automationAlt": "Prozessautomatisierung",
+    "predictive": "Prädiktive Technologie",
+    "predictiveDescription": "Verwenden Sie KI, um zukünftige Trends vorherzusagen und datengesteuerte Entscheidungen zu treffen.",
+    "predictiveAlt": "Prädiktive Technologie",
+    "reasons": [
+      "Über 5 Jahre Erfahrung in der Entwicklung von KI-Systemen",
+      "Ein Team von Profis aus verschiedenen IT-Bereichen",
+      "Persönlicher Ansatz für jeden Kunden",
+      "Qualitäts- und Ergebnisgarantie"
+    ]
+  },
+  "aiAgents": {
+    "heroTitle": "KI-Agenten — Die Zukunft von Wirtschaft und Bildung",
+    "heroDescription": "Nutzen Sie KI-Technologien, um Prozesse zu automatisieren, den Kundenservice zu verbessern und das Lernen zu innovieren.",
+    "businessTitle": "Wie KI-Technologien im modernen Geschäft helfen",
+    "businessItems": [
+      {
+        "title": "Prozessautomatisierung",
+        "description": "KI-Agenten können alltägliche Aufgaben wie Datenverarbeitung, Dokumentenanalyse und Aufgabenmanagement automatisieren."
+      },
+      {
+        "title": "Verbesserung des Kundenservice",
+        "description": "Chatbots und Sprachassistenten bieten 24/7-Kundensupport und reagieren schnell auf Anfragen."
+      },
+      {
+        "title": "Personalisierte Benutzererfahrung",
+        "description": "KI analysiert das Benutzerverhalten und bietet personalisierte Empfehlungen und Inhalte."
+      }
+    ],
+    "educationTitle": "Wie KI-Technologien die Bildung verändern",
+    "educationItems": [
+      {
+        "title": "Adaptives Lernen",
+        "description": "KI-Systeme passen sich dem Lerntempo jedes Schülers an und bieten personalisierte Materialien."
+      },
+      {
+        "title": "Automatische Bewertung",
+        "description": "KI kann Tests, Aufsätze und andere Aufgaben automatisch bewerten und spart Lehrern Zeit."
+      },
+      {
+        "title": "Fähigkeitsentwicklung",
+        "description": "Interaktive KI-Trainer helfen Schülern, praktische Fähigkeiten in realen Szenarien zu entwickeln."
+      }
+    ],
+    "applicationsTitle": "Wie wir KI in der Praxis einsetzen",
+    "applicationsItems": [
+      {
+        "title": "Chatbot für Online-Shops",
+        "description": "Wir haben einen Chatbot erstellt, der Kunden hilft, Produkte zu finden, Bestellungen aufzugeben und Support zu erhalten."
+      },
+      {
+        "title": "Verkaufsprognosesystem",
+        "description": "Wir haben ein KI-System entwickelt, das Verkaufsdaten analysiert und zukünftige Trends für Unternehmen vorhersagt."
+      },
+      {
+        "title": "Lernplattform mit KI-Trainer",
+        "description": "Wir haben eine Plattform erstellt, auf der Schüler personalisierte Kurse und interaktive Aufgaben von einem KI-Trainer erhalten."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "introduction": {
+      "title": "1. Einführung",
+      "description": "Indem Sie dieses Formular einreichen, stimmen Sie zu, sich an diese Allgemeinen Geschäftsbedingungen zu halten und davon zu gebunden zu sein. Wenn Sie nicht mit einem Teil dieser Bedingungen einverstanden sind, senden Sie bitte keine Informationen ein."
+    },
+    "dataCollection": {
+      "title": "2. Datenerhebung und -nutzung",
+      "description": "Wir sammeln personenbezogene Daten, die in diesem Formular bereitgestellt werden, einschließlich aber nicht beschränkt auf Namen, E-Mail und Nachrichteninhalt.",
+      "point1": "Ihre Daten werden nur für den im Formular angegebenen Zweck verwendet.",
+      "point2": "Wir verkaufen, tauschen oder vermieten Ihre personenbezogenen Daten nicht an Dritte.",
+      "point3": "Wir können Ihre Daten verwenden, um unsere Dienstleistungen zu verbessern und mit Ihnen zu kommunizieren."
+    },
+    "dataSecurity": {
+      "title": "3. Datensicherheit",
+      "description": "Wir ergreifen angemessene Sicherheitsmaßnahmen, um Ihren persönlichen Informationen vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen.",
+      "point1": "Es gibt jedoch keine 100% sichere Übertragungsmethoden im Internet, und wir können keine absolute Sicherheit garantieren.",
+      "point2": "Wir aktualisieren unsere Sicherheitsprotokolle regelmäßig, um den höchsten Schutzstandard sicherzustellen."
+    },
+    "userResponsibilities": {
+      "title": "4. Benutzerpflichten",
+      "description": "Sie bestätigen, dass die bereitgestellten Informationen korrekt und wahrheitsgemäß sind.",
+      "point1": "Sie stimmen zu, keine bösartigen, schädlichen oder unangemessenen Inhalte einzureichen.",
+      "point2": "Sie sind für die Richtigkeit der von Ihnen bereitgestellten Informationen verantwortlich."
+    },
+    "thirdPartyServices": {
+      "title": "5. Drittanbieterdienste",
+      "description": "Unsere Website kann Drittanbieterdienste (z. B. E-Mail-Anbieter, Analysewerkzeuge) verwenden, um Ihre Daten zu verarbeiten. Diese Drittanbieterdienste sind für ihre eigenen Datenschutzpraktiken verantwortlich."
+    },
+    "cookies": {
+      "title": "6. Cookies und Tracking",
+      "description": "Unsere Website kann Cookies verwenden, um die Benutzererfahrung zu verbessern. Sie können Cookies in Ihren Browser-Einstellungen deaktivieren, wenn Sie nicht verfolgt werden möchten."
+    },
+    "rightToModify": {
+      "title": "7. Recht auf Änderung",
+      "description": "Wir behalten uns das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern. Jede Änderung wird auf dieser Seite veröffentlicht, und Ihre fortgesetzte Nutzung des Dienstes gilt als Annahme der neuen Bedingungen."
+    },
+    "contactInformation": {
+      "title": "8. Kontaktdaten",
+      "description": "Wenn Sie Fragen zu diesen Allgemeinen Geschäftsbedingungen haben, kontaktieren Sie uns bitte unter {{email}}."
+    },
+    "agreement": "Indem Sie das Kästchen aktivieren, bestätigen Sie, dass Sie diese Allgemeinen Geschäftsbedingungen gelesen, verstanden und akzeptiert haben."
+  }
+}
